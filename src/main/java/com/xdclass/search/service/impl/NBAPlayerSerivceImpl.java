@@ -37,6 +37,7 @@ import java.util.Map;
 @Service
 public class NBAPlayerSerivceImpl implements NBAPlayerService {
 
+    //修改的地方
     @Resource
     private RestHighLevelClient client;
 
